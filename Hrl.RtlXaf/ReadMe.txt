@@ -1,0 +1,1 @@
+﻿just Import RtlXaf.Css And RtlNav.js in Default Page

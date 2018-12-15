@@ -1,0 +1,274 @@
+﻿@font-face {
+    font-family: Vazir;
+    src: url('/fonts/Vazir.eot');
+    src: url('/fonts/Vazir.eot?#iefix') format('embedded-opentype'), url('/fonts/Vazir.woff2') format('woff2'), url('/fonts/Vazir.woff') format('woff'), url('/fonts/Vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url('/fonts/Vazir-Bold.eot');
+    src: url('/fonts/Vazir-Bold.eot?#iefix') format('embedded-opentype'), url('/fonts/Vazir-Bold.woff2') format('woff2'), url('/fonts/Vazir-Bold.woff') format('woff'), url('/fonts/Vazir-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url('/fonts/Vazir-Black.eot');
+    src: url('/fonts/Vazir-Black.eot?#iefix') format('embedded-opentype'), url('/fonts/Vazir-Black.woff2') format('woff2'), url('/fonts/Vazir-Black.woff') format('woff'), url('/fonts/Vazir-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url('/fonts/Vazir-Medium.eot');
+    src: url('/fonts/Vazir-Medium.eot?#iefix') format('embedded-opentype'), url('/fonts/Vazir-Medium.woff2') format('woff2'), url('/fonts/Vazir-Medium.woff') format('woff'), url('/fonts/Vazir-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url('/fonts/Vazir-Light.eot');
+    src: url('/fonts/Vazir-Light.eot?#iefix') format('embedded-opentype'), url('/fonts/Vazir-Light.woff2') format('woff2'), url('/fonts/Vazir-Light.woff') format('woff'), url('/fonts/Vazir-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url('Vazir-Thin.eot');
+    src: url('Vazir-Thin.eot?#iefix') format('embedded-opentype'), url('Vazir-Thin.woff2') format('woff2'), url('Vazir-Thin.woff') format('woff'), url('Vazir-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+body {
+    direction: rtl;
+}
+
+/*.xafNavToggleConteiner {
+    display: none;
+}*/
+
+#menuContainer {
+    float: left !important;
+}
+
+.GroupHeader .Image {
+    padding-right: 19px;
+    vertical-align: bottom;
+}
+
+.dxgvHeader_XafTheme {
+    text-align: right;
+}
+
+.dx-ac {
+    text-align: right;
+}
+
+.dxeTAR.dxeBase_XafTheme .dxichTextCellSys, .dxeTAL.dxeBase_XafTheme[dir='rtl'] .dxichTextCellSys {
+    padding: 0px 5px 4px 4px;
+}
+
+.xafNav {
+    float: right;
+}
+
+    .xafNav > .xafContent {
+        margin-right: 0;
+        margin-left: 20px;
+    }
+
+.dxnbLite_XafTheme .dxnb-header {
+    text-align: right;
+}
+
+.xafNav .dxnbLite_XafTheme .dxnb-last .dxnb-content, .xafNav .dxnbLite_XafTheme .dxnb-content, .xafNav .dxnbLite_XafTheme .dxnb-item {
+    text-align: right;
+}
+
+.dxnbLite_XafTheme .dxnb-headerCollapsed {
+    text-align: right;
+}
+
+.GroupHeader .Label {
+    padding-right: 19px !important;
+    padding-left: 0 !important;
+}
+
+.dxeListBoxItem_XafTheme {
+    text-align: right;
+    display: block;
+}
+
+.dxtcLite_XafTheme > .dxtc-stripContainer, .dxtcLite_XafTheme > .dxtc-stripContainer .dxtc-strip {
+    float: right;
+}
+
+.nf_rightMenu_AC {
+    float: left;
+}
+
+.nf_leftMenu_AC {
+    float: right;
+}
+
+.nf_leftMenu {
+    float: right;
+}
+
+.GroupHeader .Image {
+    padding-left: 19px;
+}
+
+
+.CardGroupContent .Item .topCL tbody tr {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.dxeListBoxItemRow_XafTheme {
+    display: block !important;
+}
+
+.dxichCellSys {
+    float: right;
+}
+
+.dxgv {
+    text-align: right !important;
+}
+
+    .dxgv .WebEditorCell {
+        text-align: right !important;
+    }
+
+.dxpcLite_XafTheme, .dxdpLite_XafTheme, .dxgvControl_XafTheme, .dxgvDisabled_XafTheme, .dxnbLite_XafTheme, .dxmLite_XafTheme, .dxpnlControl_XafTheme, body {
+    font-family: Vazir !important;
+}
+
+.dxgvControl_XafTheme, .filter_grid {
+    width: 100%;
+}
+
+.CardGroupContent {
+    padding: 0 10px;
+}
+
+.button-container {
+    text-align: center;
+    display: inline;
+    float: left;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.user-list, .user-list .dxlbd {
+    width: 100% !important;
+}
+
+#mainDiv {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.xafNav > .xafContent {
+    width: 230px;
+}
+
+.insp-sidebar {
+    width: 15%;
+    display: inline-block;
+    float: right;
+    overflow: auto;
+}
+
+.insp-content {
+    width: 84%;
+    display: inline-block;
+    float: left;
+    overflow: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.dropdown-container {
+    display: inline-block;
+    width: 25%;
+}
+
+#Vertical_v2_14521174_MainLayoutView_xaf_l37_ctl01_gv_DXTitle {
+    display: none;
+}
+
+.dxgvSearchPanel_XafTheme {
+    padding-top: 0;
+}
+
+
+.dxm-item.accountItem.dxm-subMenu .dx-vam {
+    padding-left: 10px;
+}
+
+.dxm-item.accountItem.dxm-subMenu .dxm-image.dx-vam {
+    border-radius: 32px;
+    -moz-border-radius: 32px;
+    -webkit-border-radius: 32px;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    max-height: 32px;
+    max-width: 32px;
+}
+
+/*.dxeTextBoxSys, .dxeButtonEditSys {
+    border-radius: 6px;
+}*/
+
+.dxeRoot_XafTheme {
+    margin-bottom: 15px;
+}
+
+.dxeCaption_XafTheme, .dxbButton_XafTheme {
+    font-family: Vazir;
+}
+
+.dxbButton_XafTheme {
+    color: white;
+    border-color: white;
+    background: #03A9F4;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.dxpc-contentWrapper .dxbButton_XafTheme {
+    width: 100%;
+}
+
+.dxbButtonHover_XafTheme {
+    background: #2196F3 !important;
+}
+.dxeListBoxItemRow_XafTheme {
+    font-family: Vazir;
+}
+
+
+#Vertical_v2_49564755_VSP {
+    overflow:auto;
+}
+
+#Vertical_v2_49564755_MainLayoutView{
+    width: fit-content;
+}
